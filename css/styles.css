@@ -1,0 +1,730 @@
+/* Nav */
+
+.NavFondo{
+    background-color: rgb(53,58,64);
+    height: 115px;
+}
+
+.NavSeccion{
+    width: 85%;
+    gap: 105px;
+}
+
+.Alineacion{
+    align-items: center;
+}
+
+.NavTexto{
+    font-size: 30px;
+}
+
+.NavColorBlanco{
+    color: white;
+}
+
+.NavColorComprar{
+    color: rgb(42,160,70);
+}
+
+.NavColorBotones{
+    color: rgb(152,154,154)
+}
+
+.BotonColapsa{
+    display: flex;
+}
+
+
+.TextoBotonesNav{
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.navbar-toggler{
+    border-color: transparent !important;
+}
+
+/* Header */
+
+.FondoSeccion1{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/ba1.jpg) center / cover no-repeat;
+    /* opacity: 0.7; */
+}
+
+.FondoSeccion2{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/ba2.jpg) center / cover no-repeat;
+    /* opacity: 0.7; */
+}
+
+.FondoSeccion3{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/ba3.jpg) center / cover no-repeat;
+    /* opacity: 0.7; */
+}
+
+.FondoHeader{
+    padding: 270px 0px 100px 0px;
+}
+
+.TituloHeader{
+    font-weight: 500 !important;
+}
+
+.TextoHeader{
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+.SeccionBotonesHeader{
+    margin-top: 1rem;
+}
+
+.BotonVerdeHeader{
+    background-color: rgb(41,167,68) !important;
+    height: 55px !important;
+    width: 205px !important;
+}
+
+.TextoBotonVerdeHeader{
+    height: 100%;
+    font-size: 24px;
+}
+
+.BotonBlancoHeader{
+    height: 55px !important;
+    width: 230px !important;
+}
+
+.TextoBotonBlancoHeader{
+    height: 100%;
+    font-size: 24px;
+}
+
+/* Main */
+
+.Cartas{
+    width: 100%;
+}
+
+.CartasMain{
+    flex-wrap: wrap;
+}
+
+.BotonCarta{
+    padding: 1px 6px !important;
+    border: 0 !important;
+    height: 23px;
+}
+
+.BotonCartaR{
+    background-color: rgb(23,162,183);
+}
+
+.BotonCartaTexto{
+    height: 100%;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.EspacioTexto{
+    line-height: 30px;
+}
+
+/* Seccion Playa */
+
+.SeccionPlaya{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    padding-top: 1px;
+    grid-gap:1px;
+
+}
+
+.SeccionPlayaTexto{
+    background-color: rgb(53,58,64);
+}
+
+.SeccionPlayaTitulo{
+    font-size: 35px;
+}
+
+.SeccionPlayaFuente{
+    font-size: large;
+}
+
+/* Form */
+
+.TextoIgn{
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: black;
+    text-underline-offset: 1px;
+}
+
+.form{
+    width: 70%;
+}
+
+.FormMsj{
+    grid-gap:35px;
+}
+
+.BotonForm{
+    background-color: rgb(150,201,62) !important;
+}
+
+/* Footer */
+
+.FooterFondo{
+    background: linear-gradient(45deg, rgb(28,54,67),rgb(31,80,110));
+}
+
+.FooterConf{
+    width: 80%;
+}
+
+.FooterDisplay{
+    gap: 80px;
+    justify-content: center;
+}
+
+.TextoFooter{
+    text-decoration: none;
+}
+
+/* Nav */
+
+@media (width<1700px){
+    .navbarSupportedContentClase{
+        gap:30px;
+    }
+}
+
+
+@media (width<1450px){
+    .TextoBotonesNav{
+        font-size: 21px;
+    }
+
+    .navbarSupportedContentClase{
+        gap:20px;
+    }
+
+    .NavSeccion{
+        width: 90%;
+    }
+}
+
+@media (width<1158px){
+    .TextoBotonesNav{
+        font-size: large;
+    }
+
+    .NavSeccion{
+        width: 96%;
+    }
+}
+
+@media (width<992px){
+    .TextoBotonesNav{
+        font-size: medium;
+    }
+
+    .NavTexto{
+        font-size: x-large !important;
+    }
+
+    .NavSeccion{
+        flex-wrap: nowrap !important;
+        gap: 20px;
+        width: 95%;
+    }
+}
+
+@media (width<786px){
+    .TextoBotonesNav{
+        font-size: small;
+    }
+}
+
+@media (width<716px){
+    .NavTexto{
+        font-size: large !important;
+    }
+
+    .NavSeccion{
+        gap: 10px;
+    }
+}
+
+@media (width<670px){
+    .NavSeccion{
+        gap: 0;
+    }
+}
+
+@media (width<650px){
+    .navbarSupportedContentClase{
+        gap:4px;
+    }
+
+    .NavSeccion{
+        justify-content: start !important;
+        flex-wrap: wrap !important;
+        column-gap: 20;
+        row-gap: 0px;
+    }
+
+    .NavFondo{
+        height: 250px;
+    }
+
+    .BotonColapsa{
+        display: block;
+    }
+
+    .TextoBotonesNav{
+        display: block;
+        font-size: large;
+    }
+}
+
+@media (width<369px){
+    .TextoBotonesNav{
+        font-size: small;
+    }
+}
+
+/* Header */
+
+@media (width>1432px){
+    .FondoSeccion1{
+        height: 785px;
+    }
+
+    .FondoSeccion2{
+        height: 785px;
+    }
+
+    .FondoSeccion3{
+        height: 785px;
+    }
+}
+
+@media (width<1261px){
+    .TituloHeader{
+        font-size: 45px !important;
+    }
+
+    .TextoHeader{
+        font-size: 21px;
+    }
+    
+    .BotonBlancoHeader{
+        height: 50px !important;
+        width: 190px !important;
+    }
+
+    .BotonVerdeHeader{
+        height: 50px !important;
+        width: 190px !important;
+    }
+
+    .TextoBotonBlancoHeader{
+        font-size: 19.5px !important;
+    }
+
+    .TextoBotonVerdeHeader{
+        font-size: 19.5px;
+    }
+}
+
+@media (width<1107px){
+    .TituloHeader{
+        font-size: 43px !important;
+    }
+
+    .TextoHeader{
+        font-size: 20px;
+        padding: 0;
+    }
+}
+
+@media (width<1033px){
+    .TituloHeader{
+        font-size: 43px !important;
+    }
+
+    .TextoHeader{
+        font-size: 19px;
+        padding: 0;
+    }
+}
+
+@media (width<992px){
+    .TituloHeader{
+        font-size: 30px !important;
+    }
+
+    .TextoHeader{
+        font-size: 18px;
+    }
+    
+    .BotonBlancoHeader{
+        height: 50px !important;
+        width: 180px !important;
+    }
+
+    .BotonVerdeHeader{
+        height: 50px !important;
+        width: 180px !important;
+    }
+
+    .TextoBotonBlancoHeader{
+        font-size: 18px !important;
+    }
+
+    .TextoBotonVerdeHeader{
+        font-size: 18px;
+    }
+    
+    .FondoHeader{
+        padding: 270px 0px 100px 0px;
+    }
+}
+
+@media (width<931px){
+    .FondoHeader{
+        padding: 250px 0px 95px 0px;
+    }
+}
+
+@media (width<809px){
+    .TituloHeader{
+        font-size: 28px !important;
+    }
+
+    .TextoHeader{
+        font-size: 16px;
+    }
+    
+    .BotonBlancoHeader{
+        height: 45px !important;
+        width: 160px !important;
+    }
+
+    .BotonVerdeHeader{
+        height: 45px !important;
+        width: 160px !important;
+    }
+
+    .TextoBotonBlancoHeader{
+        font-size: 16px !important;
+    }
+
+    .TextoBotonVerdeHeader{
+        font-size: 16px;
+    }
+
+    .FondoHeader{
+        padding: 245px 0px 90px 0px;
+    }
+}
+
+@media (width<721px){
+    .FondoHeader{
+        padding: 235px 0px 85px 0px;
+    }
+
+    .BotonBlancoHeader{
+        height: 35px !important;
+        width: 140px !important;
+        padding: 5px !important;
+    }
+
+    .BotonVerdeHeader{
+        height: 35px !important;
+        width: 140px !important;
+        padding: 5px !important;
+    }
+
+    .TextoBotonBlancoHeader{
+        font-size: 15px !important;
+    }
+
+    .TextoBotonVerdeHeader{
+        font-size: 15px;
+    }
+        .SeccionHeader{
+        width: 90% !important;
+    }
+}
+
+@media (width<690px){
+    .SeccionHeader{
+        width: 92% !important;
+    }
+
+    .FondoHeader{
+        padding: 240px 0px 85px 0px;
+    }
+}
+
+@media (width<650px){
+    .SeccionHeader{
+        width: 90% !important;
+    }
+    
+    .SeccionBotonesHeader{
+        margin-top: 10px;
+    }
+}
+
+@media (width<593px){
+    .TituloHeader{
+        font-size: 30px !important;
+    }
+
+    .TextoHeader{
+        font-size: 15px;
+    }
+    
+    .BotonBlancoHeader{
+        height: 35px !important;
+        width: 120px !important;
+    }
+
+    .BotonVerdeHeader{
+        height: 35px !important;
+        width: 120px !important;
+    }
+
+    .TextoBotonBlancoHeader{
+        font-size: 13px !important;
+    }
+
+    .TextoBotonVerdeHeader{
+        font-size: 13px;
+    }
+    
+    .FondoHeader{
+        padding: 230px 0px 80px 0px;
+    }
+}
+
+@media (width<517px){
+    .TituloHeader{
+        font-size: 28px !important;
+    }
+
+    .TextoHeader{
+        font-size: 14px;
+    }
+    
+    .BotonBlancoHeader{
+        height: 30px !important;
+        width: 110px !important;
+    }
+
+    .BotonVerdeHeader{
+        height: 30px !important;
+        width: 110px !important;
+    }
+
+    .TextoBotonBlancoHeader{
+        font-size: 12px !important;
+    }
+
+    .TextoBotonVerdeHeader{
+        font-size: 12px;
+    }
+    
+    .FondoHeader{
+        padding: 220px 0px 77px 0px;
+    }
+
+    .SeccionHeader{
+        width: 95% !important;
+    }
+}
+
+@media (width<459px){   
+
+    .FondoHeader{
+        padding: 215px 0px 67px 0px;
+    }
+    .TituloHeader{
+        font-size: 26px !important;
+    }
+
+    .TextoHeader{
+        font-size: 12px;
+    }
+    
+    .FondoHeader{
+        padding: 210px 0px 65px 0px;
+    }
+}
+
+
+/* Seccion Playa */
+
+@media (width<1036px){
+.SeccionPlaya{
+    display: flex;
+    flex-direction: column;
+}
+.SeccionPlayaTexto{
+    width: 100% !important;
+    margin: 0 !important;
+}
+}
+
+@media (width<635px){
+    .SeccionPlayaFuente{
+        font-size: medium;
+    }
+
+    .SeccionPlayaTitulo{
+        font-size: 30px;
+    }
+}
+
+/* Footer */
+
+@media (width<1438px){
+    .FooterConf{
+        width: 85%;
+    }
+    .FooterDisplay{
+        gap: 75px;
+    }
+}
+
+@media (width<1279px){
+    .LetraFooter{
+        font-size: large;
+    }
+}
+
+@media (width<1219px){
+    .FooterDisplay{
+        gap: 70px;
+    }
+    .FooterConf{
+        width: 90%;
+    }
+    }
+
+@media (width<1036px){
+.LetraFooter{
+    font-size: medium;
+}
+}
+
+@media (width<1026px){
+    .FooterDisplay{
+        gap: 65px;
+    }
+
+    .FooterConf{
+        width: 95%;
+    }
+}
+
+@media (width<980px){
+    .FooterDisplay{
+        gap: 60px;
+    }
+}
+
+@media (width<920px){
+    .FooterDisplay{
+        gap: 50px;
+    }
+}
+
+@media (width<814px){
+
+    .LetraFooter{
+        font-size: small;
+    }
+
+    .FooterDisplay{
+        gap: 40px;
+    }
+}
+
+@media (width<700px){
+
+    .LetraFooter{
+        font-size: small;
+    }
+
+    .FooterDisplay{
+        gap: 30px;
+    }
+}
+
+@media (width<550px){
+
+    .LetraFooter{
+        font-size: 11px;
+    }
+}
+
+@media (width<518px){
+    .FooterDisplay{
+        justify-content: start;
+    }   
+}
+
+@media (width<495px){
+    .FooterDisplay{
+        gap: 28px;
+    }
+
+    .LetraFooter{
+        font-size: 10px;
+    }
+}
+
+@media (width<462px){
+    .FooterDisplay{
+        gap: 27px;
+    }
+
+    .LetraFooter{
+        font-size: 9px;
+    }
+}
+
+@media (width<462px){
+    .FooterDisplay{
+        gap: 26px;
+    }
+
+    .LetraFooter{
+        font-size: 8px;
+    }
+}
+
+@media (width<416px){
+    .FooterDisplay{
+        gap: 25px;
+    }
+
+    .LetraFooter{
+        font-size: 7px;
+    }
+}
+
+@media (width<389px){
+    .FooterDisplay{
+        gap: 24px;
+    }
+
+    .LetraFooter{
+        font-size: 6px;
+    }
+}
